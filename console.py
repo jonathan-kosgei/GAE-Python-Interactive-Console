@@ -30,8 +30,8 @@ class Shell(InteractiveConsole):
         self.return_output()
         output = self.cache.flush()
         #output = filter(output)
-        print output # or something else
-        return
+        return output # or something else
+        
     
 
 
@@ -40,7 +40,7 @@ def response(query):
 class XMPPHandler(webapp.RequestHandler):
     def post(self):
     	message = xmpp.Message(self.request.POST)
-    	message.reply("Hello"))        	
+    	message.reply(sh.push(message.body)))        	
  
 
 class MainPage(webapp.RequestHandler):
