@@ -39,8 +39,8 @@ def response(query):
     pass
 class XMPPHandler(webapp.RequestHandler):
     def post(self):
-	message = xmpp.Message(self.request.POST)
-	message.reply("Hello"))        	
+    	message = xmpp.Message(self.request.POST)
+    	message.reply("Hello"))        	
  
 
 class MainPage(webapp.RequestHandler):
