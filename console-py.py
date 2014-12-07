@@ -36,7 +36,7 @@ class Shell(InteractiveConsole):
 class XMPPHandler(webapp.RequestHandler):
     def post(self):
     	message = xmpp.Message(self.request.POST)
-    	message.reply(sh.push(message.body))   	
+    	message.reply("hello")   	
  
 
 class MainPage(webapp.RequestHandler):
