@@ -6,7 +6,7 @@ from google.appengine.ext.webapp.util import run_wsgi_app
 class XMPPHandler(webapp.RequestHandler):
     def post(self):
 			message = xmpp.Message(self.request.POST)
-			message.reply('test')   	
+			message.reply(message.body)   	
  
 
 class MainPage(webapp.RequestHandler):
