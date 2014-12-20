@@ -30,13 +30,13 @@ class Shell(InteractiveConsole):
         self.return_output()
         output = self.cache.flush()
         #output = filter(output)
-        return output # or something else
+        print output # or something else
         
 
 class XMPPHandler(webapp.RequestHandler):
     def post(self):
     	message = xmpp.Message(self.request.POST)
-    	message.reply(sh.push(message.body)))        	
+    	message.reply(sh.push(message.body))
  
 
 class MainPage(webapp.RequestHandler):
