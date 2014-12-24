@@ -3,6 +3,7 @@ from google.appengine.ext import webapp
 from google.appengine.ext.webapp.util import run_wsgi_app
 from code import InteractiveConsole
 import sys
+import StringIO
 
 class FileCacher:
     """Cache stdout text so that we can analyze it"""
@@ -17,20 +18,21 @@ class FileCacher:
 class Shell(InteractiveConsole):
     """Wrapper around Python that can filter input/output to the shell"""
     def __init__(self):
+        self.stdin = sys.stdin
         self.stdout = sys.stdout
         self.cache = FileCacher()
+        sys.stdin = StringIO()
         InteractiveConsole.__init__(self)
-        self.reply = ''
         return
     def get_output(self):sys.stdout = self.cache
     def return_output(self):sys.stdout = self.stdout
+    def set_input(self, code):sys.stdin.write(code)
+    def reset_input(self):sys.stdin = self.stdin
     def push(self, line):
         self.get_output()
-        line = XMPPHandler.message.body
         InteractiveConsole.push(self, line)
         self.return_output()
         output = self.cache.flush()
-        self.reply = output
         #output = filter(output)
         print output # or something else
       
@@ -38,7 +40,9 @@ class Shell(InteractiveConsole):
 class XMPPHandler(webapp.RequestHandler):
     def post(self):
 			message = xmpp.Message(self.request.POST)
-			message.reply(Shell.reply)	
+			sh.set_input(message.body)
+			message.reply(sys.stdout)
+			sh.reset_input()
  
 
 class MainPage(webapp.RequestHandler):
