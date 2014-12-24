@@ -22,6 +22,7 @@ class Shell(InteractiveConsole):
         self.stdout = sys.stdout
         self.cache = FileCacher()
         sys.stdin = StringIO()
+        self.output = ''
         InteractiveConsole.__init__(self)
         return
     def get_output(self):sys.stdout = self.cache
@@ -33,15 +34,17 @@ class Shell(InteractiveConsole):
         InteractiveConsole.push(self, line)
         self.return_output()
         output = self.cache.flush()
+        self.output = output
         #output = filter(output)
         print output # or something else
+    def output(self): return self.output()
       
 
 class XMPPHandler(webapp.RequestHandler):
     def post(self):
 			message = xmpp.Message(self.request.POST)
 			sh.set_input(message.body)
-			message.reply(sys.stdout)
+			message.reply(sh.output())
 			sh.reset_input()
  
 
