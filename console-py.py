@@ -33,11 +33,12 @@ class Jonathan(InteractiveConsole):
         self.return_output()
         self.output = self.cache.flush()
         return self.output
+        
+sh = Jonathan()
 
 class XMPPHandler(webapp.RequestHandler):
     def post(self):
             message = xmpp.Message(self.request.POST)
-            sh = Jonathan()
             output = sh.push(message.body)
             message.reply(output)
  
