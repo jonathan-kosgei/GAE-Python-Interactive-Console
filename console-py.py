@@ -31,13 +31,14 @@ class Jonathan(InteractiveConsole):
         InteractiveConsole.push(self, line)
         self.return_output()
         self.output = self.cache.flush()
-        return self.output    
+        print(self.output) 
 
 class XMPPHandler(webapp.RequestHandler):
     def post(self):
 			message = xmpp.Message(self.request.POST)
-            output = sh.push(message.body)
-            message.reply(output)
+			sh = Jonathan()
+            sh.push(message.body)
+            message.reply(self.output)
  
 
 class MainPage(webapp.RequestHandler):
@@ -51,9 +52,5 @@ app = webapp.WSGIApplication([('/_ah/xmpp/message/chat/', XMPPHandler),('/',Main
 def main():
     run_wsgi_app(app)
 
-if __name__ == "__main__":
-    sh = Jonathan()
-    #sh.interact('Enter code to start Sir Jonathan.')
-    #sh.push(code)
    
     
