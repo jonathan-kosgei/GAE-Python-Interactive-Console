@@ -31,13 +31,13 @@ class Jonathan(InteractiveConsole):
         InteractiveConsole.push(self, line)
         self.return_output()
         self.output = self.cache.flush()
-        print(self.output)      
+        return self.output    
 
 class XMPPHandler(webapp.RequestHandler):
     def post(self):
 			message = xmpp.Message(self.request.POST)
-            sh.push(message.body)
-            message.reply(sh.output)
+            output = sh.push(message.body)
+            message.reply(output)
  
 
 class MainPage(webapp.RequestHandler):
