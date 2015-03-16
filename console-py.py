@@ -38,7 +38,7 @@ class XMPPHandler(webapp.RequestHandler):
             message = xmpp.Message(self.request.POST)
             sh = Jonathan()
             sh.push(message.body)
-            message.reply(self.output)
+            message.reply(output)
  
 
 class MainPage(webapp.RequestHandler):
