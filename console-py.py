@@ -35,8 +35,8 @@ class Jonathan(InteractiveConsole):
 
 class XMPPHandler(webapp.RequestHandler):
     def post(self):
-			message = xmpp.Message(self.request.POST)
-			sh = Jonathan()
+            message = xmpp.Message(self.request.POST)
+            sh = Jonathan()
             sh.push(message.body)
             message.reply(self.output)
  
