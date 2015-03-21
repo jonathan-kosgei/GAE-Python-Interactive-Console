@@ -29,7 +29,7 @@ class Jonathan(InteractiveConsole):
         return
     def get_output(self):
         sys.stdout = self.cache
-        sus.stderr = self.errcache
+        sys.stderr = self.errcache
     def return_output(self):
         sys.stdout = self.stdout
         sys.stderr = self.stderr
