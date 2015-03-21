@@ -21,12 +21,18 @@ class Jonathan(InteractiveConsole):
     """Wrapper around Python that can filter output to the shell."""
     def __init__(self):
         self.stdout = sys.stdout
+        self.stderr= sys.stderr
         self.cache = FileCacher()
+        self.errcache = FileCacher()
         InteractiveConsole.__init__(self)
         self.output = ''
         return
-    def get_output(self):sys.stdout = self.cache
-    def return_output(self):sys.stdout = self.stdout
+    def get_output(self):
+        sys.stdout = self.cache
+        sus.stderr = self.errcache
+    def return_output(self):
+        sys.stdout = self.stdout
+        sys.stderr = self.stderr
     def push(self, line):
         self.get_output()
         InteractiveConsole.push(self, line)
