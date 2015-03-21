@@ -26,6 +26,7 @@ class Jonathan(InteractiveConsole):
         self.errcache = FileCacher()
         InteractiveConsole.__init__(self)
         self.output = ''
+        self.error = ''
         return
     def get_output(self):
         sys.stdout = self.cache
@@ -38,7 +39,11 @@ class Jonathan(InteractiveConsole):
         InteractiveConsole.push(self, line)
         self.return_output()
         self.output = self.cache.flush()
-        return self.output
+        self.error = self.errcache.flush()
+        if self.output:
+            return self.output
+        else:
+            return elf.error
         
 sh = Jonathan()
 
