@@ -43,7 +43,7 @@ class Jonathan(InteractiveConsole):
         if self.output:
             return self.output
         else:
-            return elf.error
+            return self.error
         
 sh = Jonathan()
 
