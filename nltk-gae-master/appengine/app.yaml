@@ -1,0 +1,17 @@
+application: nltkforappengine
+version: 0-1
+runtime: python27
+api_version: 1
+threadsafe: true
+
+handlers:
+- url: /favicon.ico
+  static_files: favicon.gif
+  upload: favicon.gif
+
+- url: /nltk.*
+  script: nltker.app
+
+libraries:
+- name: numpy
+  version: "1.6.1"
