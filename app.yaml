@@ -11,3 +11,7 @@ handlers:
 inbound_services:
 - xmpp_message
 - xmpp_subscribe  
+
+libraries:
+- name: numpy
+  version: "1.6.1"
