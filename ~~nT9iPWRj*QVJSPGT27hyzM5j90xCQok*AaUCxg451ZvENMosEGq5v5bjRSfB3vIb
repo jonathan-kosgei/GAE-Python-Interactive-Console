@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+<head>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+            <meta name="keywords" content="Offshore outsourcing, Freelancers, India, Russia, Ukraine, php Programmers, Coders, Developers, Writers, Web Designers, Website Design, Technical Writers">
+                <meta name="robots" content="noodp,nodir,noydir">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <meta property="og:title" content="oDesk: Where Savvy Businesses and Professional Freelancers Get the Job Done"/>
+    <meta property="og:image" content="https://www.odesk.com/images/oDeskLogoOnGreen1200.png"/>
+    <meta property="og:description" content="oDesk is where the world goes to work! We are a leading online workplace, where savvy businesses hire, manage, and pay an on-demand workforce of talented freelancers."/>
+    <meta property="og:url" content="https://www.odesk.com"/>
+    <meta property="og:site_name" content="oDesk"/>
+    <meta property="og:type" content="website"/>
+
+    <title>Log In - oDesk</title>
+    <link href="/css/v3/default/stylesheets/REL5953a73368be6e18f58b6e9ae58e1d7c/globals/globals.css" rel="stylesheet" type="text/css" />
+<link href="/css/v3/default/stylesheets/modules/Login/REL1f67fea47ad35dcf67d37ca55baff815/pages/login/login.css" rel="stylesheet" type="text/css" />
+
+    <script src="/js/v3/RELd6fd760fa239baca899c5fe4ccd35bf0/globals/core.js"></script>
+    <script type='text/javascript'>(function(){var cnfg = odesk.pageConfig;cnfg.VISITOR_ID = "52.4.124.35.1427539818853387";cnfg.VISITOR_API_KEY = "22669369e73aabd184f1dba2e50ac9ae";cnfg.ROOT="https://www.odesk.com/";cnfg.HELPCMS_ROOT = "https://www.odesk.com/help/";cnfg.TOP_HELP_TOPIC = "help";cnfg.COOKIE_PREFIX="";cnfg.COOKIE_DOMAIN=".odesk.com";cnfg.SERVER_TIME=1427539819000;cnfg.DEFAULT_ODESK_RENT_PERCENT=10;cnfg.URCHIN_ID="UA-30041-7";cnfg.ADROLL_ADV_ID="U5TO3O55FJEOTMQ6LLRG7H";cnfg.ADROLL_PIX_ID="CQEDEVZYOFD3LDY3DA4C2E";cnfg.USER_MAX_FILE_UPLOAD="26214400";cnfg.USER_MAX_UPLOADING_WIDTH=4000;cnfg.USER_MAX_UPLOADING_HEIGHT=4000;cnfg.ZENDESK_HOMEPAGE_URL="https://support.odesk.com";cnfg.LOG_TIMEOUT = "1000";})();</script>    <script type="text/javascript">
+        odesk.pageConfig.loggingLocation = null;
+        odesk.qt = odesk.qt || {};
+                odesk.qt['FA682_ProfileEditorWYSIWYG-Treatment'] = 1;
+                odesk.qt['FP160U_ExtendedBasicProfileUpdated-Treatment'] = 1;
+                odesk.qt['CO1329_FlawlessFirstExperienceV2-Control'] = 1;
+                odesk.qt['FA289_NavChanges_2-Treatment'] = 1;
+                odesk.qt['CT_834_WebChat-Treatment1'] = 1;
+                odesk.qt['CT_896_MCCompanyContext-Control'] = 1;
+                odesk.qt['CT_1216_MCCompanyContextInternal-Enabled'] = 1;
+                odesk.qt['RF676_ClientReportingHomepage-Control'] = 1;
+                odesk.qt['RF1084_MyStats-Test'] = 1;
+                odesk.qt['FP-1488_NEW_FREELANCER_RATE_WIDGET-Version_A'] = 1;
+                odesk.qt['MessagingSystem-MC'] = 1;
+                odesk.qt['SI1276_Twizzler-Control'] = 1;
+                odesk.qt['FP2188_Subscription-Control'] = 1;
+                odesk.featureFlags = {};odesk.featureFlags['CO2263EnableNewOrpcRegistrationMethods'] = 1;odesk.featureFlags['enableQuickstartCalendar'] = 1;odesk.featureFlags['contactFreelancerSignupFlowPrivateJobInvite'] = 1;odesk.featureFlags['mixpanelRegFlow'] = 1;odesk.featureFlags['dropboxAttachment'] = 1;odesk.featureFlags['newCjarServices'] = 1;odesk.featureFlags['mcSessionCam'] = 1;odesk.featureFlags['FP302ExternalLinkedInProfiles'] = 1;odesk.featureFlags['FP442ExternalFacebookProfiles'] = 1;odesk.featureFlags['FP435ExternalGitHubProfiles'] = 1;odesk.featureFlags['CO1249ExternalGoogleProfiles'] = 1;odesk.featureFlags['FA623ExternalStackOverflowProfiles'] = 1;odesk.featureFlags['FP1640CertificationAgora'] = 1;odesk.featureFlags['CO429SessionCamForClientSignup'] = 1;odesk.featureFlags['MAT341SessionCamForATS'] = 1;odesk.featureFlags['ATSMoneyBackGuarantee'] = 1;odesk.featureFlags['FP304FacebookFreelancerSignUp'] = 1;odesk.featureFlags['FP304LinkedinFreelancerSignUp'] = 1;odesk.featureFlags['FP304GithubFreelancerSignUp'] = 1;odesk.featureFlags['FP374StackoverflowFreelancerSignUp'] = 1;odesk.featureFlags['CO1249GoogleFreelancerSignUp'] = 1;odesk.featureFlags['FP304FacebookClientSignUp'] = 1;odesk.featureFlags['FP304LinkedinClientSignUp'] = 1;odesk.featureFlags['CO1249GoogleClientSignUp'] = 1;odesk.featureFlags['CO561EnterpriseSignupLink'] = 1;odesk.featureFlags['CO2495NewClientsWebinars'] = 1;odesk.featureFlags['mesCreditCardTokenization'] = 1;odesk.featureFlags['CO604MarketoTrackingSignup'] = 1;odesk.featureFlags['FP65PortfolioProjects'] = 1;odesk.featureFlags['FP186ContractorLinkedAccounts'] = 1;odesk.featureFlags['CO688ContactContractorSignupShowContractorInfo'] = 1;odesk.featureFlags['optimizely'] = 1;odesk.featureFlags['myContractorsSearch'] = 1;odesk.featureFlags['CO874BlogAlert'] = 1;odesk.featureFlags['CO1091OAuthRefactor'] = 1;odesk.featureFlags['CO1094OAuthOnAppAuthorizations'] = 1;odesk.featureFlags['CO1133NewJobPostingsPage'] = 1;odesk.featureFlags['CO1224ClientIntroSessionCam'] = 1;odesk.featureFlags['CO1297QuickstartSessionCam'] = 1;odesk.featureFlags['CO1329FlawlessFirstExperienceV2ModelApi'] = 1;odesk.featureFlags['CO1608MobileDeferredEmailVerification'] = 1;odesk.featureFlags['CO1474SignupImpressionOnJavascript'] = 1;odesk.featureFlags['CO1709DraftJobPostingForDeferredEmailVerification'] = 1;odesk.featureFlags['CO1951EDCReplicationSessionCam'] = 1;odesk.featureFlags['CO1573TwizzlerElanceReplication'] = 1;odesk.featureFlags['CO2324SignupBinderElanceFreelancerFlow'] = 1;odesk.featureFlags['CO2324SignupBinderJoinGroupFlow'] = 1;odesk.featureFlags['CO2324SignupBinderMoreFreelancersFlow'] = 1;odesk.featureFlags['CO2324SignupBinderOauthProviderFlow'] = 1;odesk.featureFlags['CO2928ElanceReplicatedClientJobDetailsBinder'] = 1;odesk.featureFlags['sessionCamForFP2'] = 1;odesk.featureFlags['disableORPCDigests'] = 1;odesk.featureFlags['CO1230MarketingUsersAgora'] = 1;odesk.featureFlags['ATS381SortByRelevance'] = 1;odesk.featureFlags['JobSearchMigrationToV3'] = 1;odesk.featureFlags['mailgunCoe'] = 1;odesk.featureFlags['mailgunEoe'] = 1;odesk.featureFlags['mailgunAccount'] = 1;odesk.featureFlags['mailgunMisc'] = 1;odesk.featureFlags['mailgunBpa'] = 1;odesk.featureFlags['mailgunDispute'] = 1;odesk.featureFlags['mailgunEngage'] = 1;odesk.featureFlags['mailgunJobreview'] = 1;odesk.featureFlags['mailgunMc'] = 1;odesk.featureFlags['mailgunSignup'] = 1;odesk.featureFlags['mailgunTimetracking'] = 1;odesk.featureFlags['chatPermissions'] = 1;odesk.featureFlags['webChat'] = 1;odesk.featureFlags['portfolioLinkingContractFeedback'] = 1;odesk.featureFlags['navigationService'] = 1;odesk.featureFlags['jobTemplatesInfoInSearch'] = 1;odesk.featureFlags['sendEOE8AndEOE9EmailsByORPC'] = 1;odesk.featureFlags['EnforceMinimumRateInProfile'] = 1;odesk.featureFlags['EnforceMinimumRateUi'] = 1;odesk.featureFlags['EnforceMinimumRate'] = 1;odesk.featureFlags['ATS785HideBlacklistedApplicants'] = 1;odesk.featureFlags['ATS759SubcategoryJobsCount'] = 1;odesk.featureFlags['ATS812PollingJobsFeed'] = 1;odesk.featureFlags['SortJobSearchCategoriesFilter'] = 1;odesk.featureFlags['SortJobSearchSubcategoriesFilter'] = 1;odesk.featureFlags['testIosBug'] = 1;odesk.featureFlags['EOM1367InterstitialOnLogin'] = 1;odesk.featureFlags['GetWorkdiaryORPCOnly'] = 1;odesk.featureFlags['SessionCamForDash'] = 1;odesk.featureFlags['agoraNavigationCompanySelector'] = 1;odesk.featureFlags['DirectToHermesPlusOEV'] = 1;odesk.featureFlags['AppAgoraTraceErrorsOnly'] = 1;   </script>
+
+</head>
+<body class="FA682_ProfileEditorWYSIWYG-Treatment FP160U_ExtendedBasicProfileUpdated-Treatment CO1329_FlawlessFirstExperienceV2-Control FA289_NavChanges_2-Treatment CT_834_WebChat-Treatment1 CT_896_MCCompanyContext-Control CT_1216_MCCompanyContextInternal-Enabled RF676_ClientReportingHomepage-Control RF1084_MyStats-Test FP-1488_NEW_FREELANCER_RATE_WIDGET-Version_A MessagingSystem-MC SI1276_Twizzler-Control FP2188_Subscription-Control">
+<header role="banner" class="oTransitionalHeader">
+    <div class="cols oPageCentered">
+        <div class="col col1of2 txtLeft">
+            <a class="oTransitionalPageLogo" href="https://www.odesk.com/?from=verify">oDesk</a>
+        </div>
+                    <div class="col col1of2 txtRight">
+                <nav class="linksContainer">
+                                        <a href="/signup/create-account" id="signup">Sign up</a>
+                                    </nav>
+            </div>
+            </div>
+</header>
+<script src="//cdn.optimizely.com/js/183139605.js"></script>
+    <div id="main" role="main" class="oPageCentered oContentContainer">
+                
+<div class="oPageCentered oFormContainer">
+    <h1>Log in and get to work</h1>
+    
+<form action="/login?redir=https%3A%2F%2Fwww.odesk.com%2Fatt%2F%2F~~nT9iPWRj*QVJSPGT27hyzM5j90xCQok*AaUCxg451ZvENMosEGq5v5bjRSfB3vIb&amp;_redirected" name="login" id="login" class="oForm-login" autocomplete="on" method="post">
+    
+<input type="text" name="username" id="username" value="" maxlength="1000" class="oFormJumbo oFormMed oInputText" placeholder="Username or Email" />    
+<input type="password" name="password" id="password" value="" maxlength="250" class="oFormJumbo oFormMed oInputText" placeholder="Password" />        <footer class="oFormFooter cols">
+        <div class="col col1of3">
+            
+<input type="submit" name="submit" id="submit" value="Log in" class="oBtn oBtnPrimary" />        </div>
+        <div class="col col2of3">
+            <label class="oOpt oOptLbl oMute oRememberMe">
+                
+<input type="hidden" name="remember_me" value="0" /><input type="checkbox" name="remember_me" id="remember_me" value="1" />                Remember me next time            </label>
+        </div>
+    </footer>
+    
+<script>
+   
+    var io_operation = 'ioBegin';
+
+   
+    var io_bbout_element_id = 'ioBB';
+
+   
+   
+    var io_install_stm = false;
+    var io_install_flash    = false;
+
+   
+   
+    function redirectActiveX(){ document.location.href="explainActiveX.html"; }
+    function redirectFlash(){ document.location.href = "http://www.macromedia.com/flash"; }
+
+   
+   
+    var io_flash_needs_update_handler = "";
+   
+      var io_max_wait = 5000; var io_submit_element_id = 'fakeSubmitButton'; var io_submit_form_id = 'login';
+    $(document).ready(function(){
+      if (typeof(io_submit_element_id) != "undefined") {
+        var submitElement = $('#'+io_submit_element_id)[0]; 
+        if (submitElement) submitElement.onclick = function(){if(window.io_submit_element){ $('#'+io_submit_form_id).submit();return false;} else return true;};
+      }
+    });
+</script>
+
+<script src="https://mpsnare.iesnare.com/snare.js"></script>    <input type="hidden" name="ioBB" id="ioBB">    <div class="oForgotLinks">
+        <a href="/reset/password">Forgot password?</a>
+    </div>
+</form>
+</div>
+    </div>
+<footer role="contentinfo" class="oTransitionalFooter">
+    <a class="oTransitionalPageLogo" href="https://www.odesk.com/?from=verify">oDesk</a>
+    <div class="oSupportInfo">&#169; 2003-2015 oDesk Corporation.</div>
+    <a href="https://www.odesk.com/info/terms/cookie-policy/">Cookie Policy</a></footer>
+    <script src="/js/v3/RELc64a5dfb83a0f824719b9e8f20747605/globals/globals.js"></script>
+<script src="/js/v3/modules/Login/REL8a26ff7b50d91f7b8368bbaad42542db/pages/login/login.js"></script>
+<script>if (odesk.pageController) { odesk.pageController.initPageController(); }if (window.QUnit) { QUnit.start(); }</script>                            <script>
+        odesk.pageConfig.GA = {"inTeam":null,"showActivationParams":true,"showSignupConversionCode":null,"urchinReqUri":null,"showSiteSpeedCode":false};
+        </script>
+                </body>
+</html>
+
+
